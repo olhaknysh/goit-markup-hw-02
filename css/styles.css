@@ -1,0 +1,52 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --background-gero-color: #2f303a;
+  --our-team-back-color: #f5f4fa;
+  --footer-back-color: #000000;
+}
+
+/* main page */
+
+body {
+  color: var(--primary-text-color);
+}
+
+.hero {
+  color: var(--background-color);
+}
+
+.button {
+  color: inherit;
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header nav */
+
+.link {
+  color: var(--title-text-color);
+}
+.link:hover,
+.link:focus,
+.current,
+.web {
+  color: var(--accent-color);
+}
+
+.telephone-link {
+  color: inherit;
+}
