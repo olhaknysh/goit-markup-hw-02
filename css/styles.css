@@ -50,3 +50,9 @@ a {
 .telephone-link {
   color: inherit;
 }
+
+/* портфолио */
+
+.button-port {
+  color: var(--title-text-color);
+}
