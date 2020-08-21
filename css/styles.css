@@ -11,15 +11,37 @@
 /* main page */
 
 body {
+  font-family: Roboto, serif;
+
   color: var(--primary-text-color);
+}
+
+.nav {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .hero {
   color: var(--background-color);
 }
 
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .button {
   color: inherit;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 h2,
@@ -49,6 +71,28 @@ a {
 
 .telephone-link {
   color: inherit;
+}
+
+/* главная страница секции */
+
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.title-small-section {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.text-special-section {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* портфолио */
