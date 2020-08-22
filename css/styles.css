@@ -12,6 +12,7 @@
 
 body {
   font-family: Roboto, serif;
+  letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
 }
@@ -30,7 +31,6 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .button {
@@ -79,24 +79,49 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .title-small-section {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
 }
 
-.text-special-section {
+.text-special-section,
+.text-address {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+}
+
+.text-team {
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* портфолио */
 
 .button-port {
   color: var(--title-text-color);
+
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.button-port:hover,
+.button-port:focus {
+  color: var(--background-color);
+}
+
+.title-app {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.text-app {
+  font-size: 16px;
+  line-height: 1.88;
 }
